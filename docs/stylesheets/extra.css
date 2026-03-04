@@ -18,3 +18,8 @@
 .mermaid {
   text-align: center;
 }
+
+/* Hide the lone "Overview" child under Task 3 so it looks like a bold top-level link */
+.md-nav__item--section .md-nav__item:only-child {
+  display: none;
+}
