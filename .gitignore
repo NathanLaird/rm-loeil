@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.DS_Store
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+site/
+.claude/
+rm-loeil-rough-draft/
+rm-loeil-sapphire-project.zip

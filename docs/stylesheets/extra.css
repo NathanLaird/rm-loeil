@@ -1,0 +1,20 @@
+/* Clean typography overrides */
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h2 {
+  font-weight: 600;
+  margin-top: 2em;
+}
+
+/* Make tables more readable */
+.md-typeset table:not([class]) th {
+  white-space: nowrap;
+}
+
+/* Mermaid diagram sizing */
+.mermaid {
+  text-align: center;
+}

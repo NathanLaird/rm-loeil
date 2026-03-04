@@ -1,0 +1,71 @@
+site_name: "L'oeil"
+site_description: "Investment intelligence through agentic systems"
+site_url: https://nathanlaird.github.io/rm-loeil/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+  - tables
+  - def_list
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - "Task 1 — Conference Scraper":
+    - Overview: conference-scraper/index.md
+    - Pipeline: conference-scraper/pipeline.md
+    - Data Structures: conference-scraper/data-structures.md
+    - Scraper Lifecycle: conference-scraper/scraper-lifecycle.md
+    - Cost Model: conference-scraper/cost.md
+  - "Task 2 — Research Memo":
+    - Overview: research-memo/index.md
+    - Pipeline: research-memo/pipeline.md
+    - Data Structures: research-memo/data-structures.md
+    - Data Inputs: research-memo/inputs.md
+    - LLM Limitations: research-memo/limitations.md
+  - "Task 3 — Investment Memo":
+    - Overview: investment-memo/index.md
+  - "Cost & Observability":
+    - Overview: cost-and-observability/index.md
+    - Model Selection: cost-and-observability/model-selection.md
+    - Token Budgets: cost-and-observability/token-budgets.md
+    - Tracing: cost-and-observability/tracing.md

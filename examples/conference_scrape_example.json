@@ -1,0 +1,162 @@
+{
+  "scraped_at": "2026-03-02T04:23:19.532418",
+  "events": [
+    {
+      "name": "TechCrunch Disrupt 2024",
+      "location": "San Francisco, CA",
+      "dates": "2024-10-28 00:00:00 - 2024-10-30 00:00:00",
+      "speaker_count": 7,
+      "speakers": [
+        {
+          "name": "Harrison Chase",
+          "title": "CEO",
+          "company": "LangChain"
+        },
+        {
+          "name": "Dario Amodei",
+          "title": "CEO",
+          "company": "Anthropic"
+        },
+        {
+          "name": "Sam Altman",
+          "title": "CEO",
+          "company": "OpenAI"
+        },
+        {
+          "name": "Satya Nadella",
+          "title": "CEO",
+          "company": "Microsoft"
+        },
+        {
+          "name": "Jensen Huang",
+          "title": "CEO",
+          "company": "NVIDIA"
+        },
+        {
+          "name": "Ali Ghodsi",
+          "title": "CEO",
+          "company": "Databricks"
+        },
+        {
+          "name": "Dylan Field",
+          "title": "CEO",
+          "company": "Figma"
+        }
+      ]
+    },
+    {
+      "name": "Web Summit 2024",
+      "location": "Lisbon, Portugal",
+      "dates": "2024-11-11 00:00:00 - 2024-11-14 00:00:00",
+      "speaker_count": 5,
+      "speakers": [
+        {
+          "name": "Maxim Fateev",
+          "title": "CEO",
+          "company": "Temporal"
+        },
+        {
+          "name": "Arvind Jain",
+          "title": "CEO",
+          "company": "Glean"
+        },
+        {
+          "name": "Patrick Collison",
+          "title": "CEO",
+          "company": "Stripe"
+        },
+        {
+          "name": "Brian Chesky",
+          "title": "CEO",
+          "company": "Airbnb"
+        },
+        {
+          "name": "Tobi L\u00fctke",
+          "title": "CEO",
+          "company": "Shopify"
+        }
+      ]
+    },
+    {
+      "name": "AI Engineer Summit 2024",
+      "location": "San Francisco, CA",
+      "dates": "2024-10-08 00:00:00 - 2024-10-10 00:00:00",
+      "speaker_count": 4,
+      "speakers": [
+        {
+          "name": "Harrison Chase",
+          "title": "CEO",
+          "company": "LangChain"
+        },
+        {
+          "name": "Guillermo Rauch",
+          "title": "CEO",
+          "company": "Vercel"
+        },
+        {
+          "name": "Simon Willison",
+          "title": "Creator",
+          "company": "Datasette"
+        },
+        {
+          "name": "Andrej Karpathy",
+          "title": "Founder",
+          "company": "Eureka Labs"
+        }
+      ]
+    }
+  ],
+  "target_matches": [
+    {
+      "event": "TechCrunch Disrupt 2024",
+      "speakers": [
+        {
+          "name": "Harrison Chase",
+          "company": "LangChain"
+        },
+        {
+          "name": "Dario Amodei",
+          "company": "Anthropic"
+        },
+        {
+          "name": "Sam Altman",
+          "company": "OpenAI"
+        },
+        {
+          "name": "Ali Ghodsi",
+          "company": "Databricks"
+        },
+        {
+          "name": "Dylan Field",
+          "company": "Figma"
+        }
+      ]
+    },
+    {
+      "event": "Web Summit 2024",
+      "speakers": [
+        {
+          "name": "Maxim Fateev",
+          "company": "Temporal"
+        },
+        {
+          "name": "Arvind Jain",
+          "company": "Glean"
+        },
+        {
+          "name": "Patrick Collison",
+          "company": "Stripe"
+        }
+      ]
+    },
+    {
+      "event": "AI Engineer Summit 2024",
+      "speakers": [
+        {
+          "name": "Harrison Chase",
+          "company": "LangChain"
+        }
+      ]
+    }
+  ]
+}
