@@ -18,7 +18,7 @@ Both systems are built on [LangGraph](https://www.langchain.com/langgraph) and s
 
 ## The Three Tasks
 
-| | [Task 1: Conference Scraper](conference-scraper/index.md) | [Task 2: Research Memo](research-memo/index.md) | [Task 3: Investment Memo](https://github.com/NathanLaird/rm-loeil/blob/main/Nightfall_AI_Investment_Memo.pdf) |
+| | [Task 1: Conference Scraper](conference-scraper/index.md) | [Task 2: Research Memo](research-memo/index.md) | [Task 3: Investment Memo](investment-memo/index.md) |
 |---|---|---|---|
 | **What it does** | Scrapes conference sites, matches attendees against target companies, sends Slack alerts with calendar cross-referencing | Takes a company + signal, produces a source-cited research memo | 3-5 page outside-in memo on Nightfall AI |
 | **When it runs** | Weekly on a schedule | On-demand when a signal fires | — |
@@ -50,4 +50,4 @@ The systems feed each other: conference scraper output (which funds are showing 
 
 ### Task 3: Investment Memo
 
-[Nightfall AI Investment Memo (PDF) →](https://github.com/NathanLaird/rm-loeil/blob/main/Nightfall_AI_Investment_Memo.pdf)
+[Nightfall AI Investment Memo →](investment-memo/index.md)
