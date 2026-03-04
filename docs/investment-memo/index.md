@@ -6,4 +6,4 @@ A 3-5 page outside-in investment memo on [Nightfall AI](https://www.nightfall.ai
 
 ---
 
-<iframe src="Nightfall_AI_Investment_Memo.pdf" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
+<iframe src="Nightfall_AI_Investment_Memo.pdf#pagemode=none&view=FitH" width="100%" height="1000px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>

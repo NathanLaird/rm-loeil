@@ -23,3 +23,9 @@
 .md-nav__item--section .md-nav__item:only-child {
   display: none;
 }
+
+/* Widen content area on the investment memo page so the PDF viewer gets more space */
+.md-typeset iframe[src*="Nightfall"] {
+  margin-left: -2rem;
+  width: calc(100% + 4rem);
+}
